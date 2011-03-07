@@ -24,7 +24,6 @@
 /config/*.sphinx.conf
 /config/s3_credentials.yml
 /config/initializers/site_keys.rb 
-/coverage/
 /db/*.sqlite3
 /db/cstore/**
 /db/sphinx/**
