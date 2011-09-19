@@ -1,5 +1,6 @@
 .#*
 .DS_Store
+.jhw-cache
 .loadpath
 .project
 .rake_tasks~
@@ -40,10 +41,3 @@
 /vendor/bundle
 /vendor/gems/cache/
 /webrat-*.html
-
-
-
-
-
-
-
