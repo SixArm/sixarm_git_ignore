@@ -59,7 +59,6 @@
 # Databases
 /db/cstore/**/*
 /db/sphinx/**/*
-/db/sphinx/**/*
 
 # Secrets
 /config/database.yml
@@ -94,5 +93,3 @@ Thumbs.db
 **.orig
 rerun.txt
 pickle-email-*.html
-
-
