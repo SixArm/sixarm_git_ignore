@@ -28,6 +28,7 @@
 # Configurations
 /.bundle
 /.config
+/.env
 /.idea
 /.jetbrains
 /.loadpath
