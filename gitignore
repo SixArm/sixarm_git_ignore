@@ -1,18 +1,12 @@
 .#*
-.DS_Store
-.jhw-cache
 .loadpath
-.project
 .rake_tasks
 .rspec
 .sass-cache
 .yardoc
-*~
-*#
 *.backup
 *.bak
 *.cache
-*.log
 *.pid
 *.rbc
 *.sassc
@@ -21,17 +15,10 @@
 **.orig
 /.bundle
 /capybara-*.html
-/config/database.yml
-/config/*.sphinx.conf
-/config/s3_credentials.yml
-/config/initializers/site_keys.rb 
 /db/*.sqlite3
 /db/cstore/**
 /db/sphinx/**
 /db/sphinx/**/*
-/log/*.log
-/log/*.pid
-/nbproject/*
 /public/system/*
 /public/export/*
 /public/exports/*
@@ -40,4 +27,170 @@
 /tmp/**/*
 /vendor/bundle
 /vendor/gems/cache/
-/webrat-*.html
+
+## Log
+*.log
+log/*.log
+log/*.pid
+
+###
+#
+# Databases
+#
+###
+
+# SQL export files
+*.sql
+
+# SQLite
+*.sqlite
+*.sqlite3
+
+###
+#
+# Compiled Source
+#
+###
+
+# Archive library
+*.a
+
+# Command file executable on DOS & Windows
+*.com
+
+# Executable file on DOS, Windows, etc.
+*.exe
+
+# Object file
+*.o
+
+# Ouput file
+*.out
+
+# Shared Object library file
+*.so
+
+# Microsoft Dynamic Link Library
+*.dll
+
+# Java
+*.class
+
+# Python
+*.pyc
+
+###
+#
+# Package Archives
+#
+###
+
+# GNU zip archive
+*.gz
+
+# ISO disk image
+*.iso
+
+# Tape archive 
+*.tar
+
+# Zip archive
+*.zip
+
+# 7-Zip archive
+*.7z
+
+# OSX disk image
+*.dmg
+
+# Java J2EE enterprise archive
+*.ear
+
+# Java archive
+*.jar
+
+# Java web application archive
+*.war
+
+# Roshal Archive
+*.rar
+
+###
+#
+# Operating System
+#
+###
+
+# Misc
+._*
+
+# OSX Desktop Services Store
+.DS_Store
+.DS_Store?
+
+# OSX Spotlight search cache
+.Spotlight-v100
+
+# OSX Trash
+.Trashes
+._.Trashes
+
+# Windows thumbnail database
+Thumbs.db
+ehthumbs.db
+thumbcache_*.db
+
+###
+#
+# Editors
+#
+###
+
+## Emacs temp files
+*~
+*#
+
+## Vim swap files
+*.swp
+
+# Netbeans IDE
+nbproject/
+
+# IntelliJ IDEA 
+.idea
+
+# Eclipse
+.buildpath
+.classpath
+.project
+.settings
+
+# Composer dependency manager for PHP
+composer.lock
+
+# Misc
+.~lock.*
+*.lock
+
+###
+#
+# Frameworks
+#
+###
+
+# Jasmine Headless Webkit
+.jhw-cache
+
+# Webrat acceptance testing temp files
+webrat-*.html
+
+# Rails config files that contain secrets
+config/database.yml
+config/*.sphinx.conf
+config/s3_credentials.yml
+config/initializers/site_keys.rb 
+
+# Rails log and tmp directories
+log/*
+tmp/*
+
