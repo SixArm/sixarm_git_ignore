@@ -1,0 +1,2 @@
+# YARD Ruby documentation gem
+.yardoc

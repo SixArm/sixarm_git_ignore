@@ -1,0 +1,8 @@
+.loadpath
+*.pid
+*.rbc
+*.tmproj
+**.orig
+rerun.txt
+pickle-email-*.html
+

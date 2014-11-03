@@ -1,89 +1,4 @@
-.#*
-.loadpath
-.rake_tasks
-.rspec
-.sass-cache
-.yardoc
-*.backup
-*.bak
-*.cache
-*.pid
-*.rbc
-*.sassc
-*.sw?
-*.tmproj
-**.orig
-/.bundle
-/capybara-*.html
-/db/*.sqlite3
-/db/cstore/**
-/db/sphinx/**
-/db/sphinx/**/*
-/public/system/*
-/public/export/*
-/public/exports/*
-/spec/tmp/*
-/tmp/*
-/tmp/**/*
-/vendor/bundle
-/vendor/gems/cache/
-
-## Log
-*.log
-log/*.log
-log/*.pid
-
-###
-#
-# Databases
-#
-###
-
-# SQL export files
-*.sql
-
-# SQLite
-*.sqlite
-*.sqlite3
-
-###
-#
-# Compiled Source
-#
-###
-
-# Archive library
-*.a
-
-# Command file executable on DOS & Windows
-*.com
-
-# Executable file on DOS, Windows, etc.
-*.exe
-
-# Object file
-*.o
-
-# Ouput file
-*.out
-
-# Shared Object library file
-*.so
-
-# Microsoft Dynamic Link Library
-*.dll
-
-# Java
-*.class
-
-# Python
-*.pyc
-
-###
-#
-# Package Archives
-#
-###
+# Archives
 
 # GNU zip archive
 *.gz
@@ -115,14 +30,87 @@ log/*.pid
 # Roshal Archive
 *.rar
 
-###
-#
-# Operating System
-#
-###
+# Backup files
+*.backup
+backup/*
+*.backups
+backups/*
+*.bak
+bak/*
+
+# Bundler Ruby gem
+.bundle
+# Cache files
+*.cache
+cache/*
+
+# Archive library
+*.a
+
+# Command file executable on DOS & Windows
+*.com
+
+# Executable file on DOS, Windows, etc.
+*.exe
+
+# Object file
+*.o
+
+# Ouput file
+*.out
+
+# Shared Object library file
+*.so
+
+# Microsoft Dynamic Link Library
+*.dll
+
+# Java
+*.class
+
+# Python
+*.pyc
+
+# Composer dependency manager for PHP
+composer.lock
+
+# Eclipse IDE
+.buildpath
+.classpath
+.project
+.settings
+
+# Emacs temp files
+*~
+*#
+.#*
+
+# IntelliJ IDEA 
+.idea
+
+# Jasmine Headless Webkit
+.jhw-cache
+
+# Lock file naming conventions
+*.lock
+lock/*
+.~lock.*
+
+# Log file naming conventions
+*.log
+log/*
+.loadpath
 
 # Misc
-._*
+*.pid
+*.rbc
+*.tmproj
+**.orig
+rerun.txt
+pickle-email-*.html
+
+# Netbeans IDE
+nbproject/
 
 # OSX Desktop Services Store
 .DS_Store
@@ -131,66 +119,129 @@ log/*.pid
 # OSX Spotlight search cache
 .Spotlight-v100
 
-# OSX Trash
+# Trash
 .Trashes
 ._.Trashes
 
-# Windows thumbnail database
-Thumbs.db
-ehthumbs.db
-thumbcache_*.db
+# Process ID files
+*.pid
+pid/*
 
-###
-#
-# Editors
-#
-###
+# Postfix database
+*.txt.db
 
-## Emacs temp files
-*~
-*#
+# Rails artifacts
+*.backup
+*.bak
+*.cache
+*.log
+*.pid
+*.rbc
+*.sassc
+*.tmp
+*.tmproj
 
-## Vim swap files
+# Rails dot files
+/.bundle
+/.config
+/.env
+/.idea
+/.jetbrains
+/.loadpath
+/.mozilla
+/.nbproject
+/.netbeans
+/.project
+/.rake
+/.rake_tasks
+/.rdoc
+/.rspec
+/.rubymine
+/.rvmrc
+/.sass
+/.sass-cache
+/.sublime
+/.sdoc
+/.yardoc
+
+# Rails directories
+/log/*
+/tmp/*
+/vendor/bundle/*
+/vendor/gems/cache/*
+
+# Rails databases
+/db/*.sqlite3
+/db/*.sqlite3-journal
+/db/cstore/**/*
+/db/sphinx/**/*
+
+# Rails config secrets
+/config/database.yml
+/config/s3_credentials.yml
+/config/initializers/site_keys.rb 
+/config/*.sphinx.conf
+
+# Rails integration testing downloads
+/capybara-*.html
+/webrat-*.html
+
+# Rails coverage reports
+/coverage/
+/spec/reports/*
+/spec/tmp/*
+/test/reports/*
+/test/tmp/*
+
+# Rails public folders for our projects
+/public/cache/*
+/public/system/*
+/public/export/*
+/public/exports/*
+/public/tmp/*
+
+# Rake task runner
+.rake_tasks
+
+# RSpec Ruby test gem
+.rspec
+
+# SASS CSS preprocessor
+.sass-cache
+*.sassc
+
+# SQL export files
+*.sql
+
+# SQLite database
+*.sqlite
+*.sqlite3
+
+# Temporary files
+*.tmp
+tmp/*
+
+# Vim swap files
 *.swp
-
-# Netbeans IDE
-nbproject/
-
-# IntelliJ IDEA 
-.idea
-
-# Eclipse
-.buildpath
-.classpath
-.project
-.settings
-
-# Composer dependency manager for PHP
-composer.lock
-
-# Misc
-.~lock.*
-*.lock
-
-###
-#
-# Frameworks
-#
-###
-
-# Jasmine Headless Webkit
-.jhw-cache
 
 # Webrat acceptance testing temp files
 webrat-*.html
 
-# Rails config files that contain secrets
-config/database.yml
-config/*.sphinx.conf
-config/s3_credentials.yml
-config/initializers/site_keys.rb 
+# Windows
+Thumbs.db
+ehthumbs.db
+thumbcache_*.db
 
-# Rails log and tmp directories
-log/*
-tmp/*
+# Xcode IDE
+build/
+*.pbxuser
+*.mode2v3
+*.mode1v3
+*.perspective
+*.perspectivev3
+*~.nib
+xcuserdata
+project.xcworkspace
 
+# YARD Ruby documentation gem
+.yardoc

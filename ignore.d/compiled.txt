@@ -1,0 +1,26 @@
+# Archive library
+*.a
+
+# Command file executable on DOS & Windows
+*.com
+
+# Executable file on DOS, Windows, etc.
+*.exe
+
+# Object file
+*.o
+
+# Ouput file
+*.out
+
+# Shared Object library file
+*.so
+
+# Microsoft Dynamic Link Library
+*.dll
+
+# Java
+*.class
+
+# Python
+*.pyc

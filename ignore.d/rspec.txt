@@ -1,0 +1,2 @@
+# RSpec Ruby test gem
+.rspec

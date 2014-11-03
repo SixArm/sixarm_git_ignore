@@ -1,0 +1,69 @@
+# Rails artifacts
+*.backup
+*.bak
+*.cache
+*.log
+*.pid
+*.rbc
+*.sassc
+*.tmp
+*.tmproj
+
+# Rails dot files
+/.bundle
+/.config
+/.env
+/.idea
+/.jetbrains
+/.loadpath
+/.mozilla
+/.nbproject
+/.netbeans
+/.project
+/.rake
+/.rake_tasks
+/.rdoc
+/.rspec
+/.rubymine
+/.rvmrc
+/.sass
+/.sass-cache
+/.sublime
+/.sdoc
+/.yardoc
+
+# Rails directories
+/log/*
+/tmp/*
+/vendor/bundle/*
+/vendor/gems/cache/*
+
+# Rails databases
+/db/*.sqlite3
+/db/*.sqlite3-journal
+/db/cstore/**/*
+/db/sphinx/**/*
+
+# Rails config secrets
+/config/database.yml
+/config/s3_credentials.yml
+/config/initializers/site_keys.rb 
+/config/*.sphinx.conf
+
+# Rails integration testing downloads
+/capybara-*.html
+/webrat-*.html
+
+# Rails coverage reports
+/coverage/
+/spec/reports/*
+/spec/tmp/*
+/test/reports/*
+/test/tmp/*
+
+# Rails public folders for our projects
+/public/cache/*
+/public/system/*
+/public/export/*
+/public/exports/*
+/public/tmp/*
