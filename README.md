@@ -1,9 +1,8 @@
-SixArm.com » Git » Git ignore configuration file
+# SixArm.com » Git » Git ignore configuration file
+
+Git ignore file patterns for various languages and frameworks.
 
 Install:
 
-    cp ignore ~/.config/git/ignore
+    cat ignore >> ~/.config/git/ignore
 
-If you prefer a different location:
-
-    cp ignore ~/.gitignore
