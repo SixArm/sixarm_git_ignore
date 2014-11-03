@@ -1,4 +1,4 @@
-# SixArm.com » Git » Git ignore configuration file
+# SixArm.com » Git » Ignore
 
 Git ignore file patterns for various languages and frameworks.
 
