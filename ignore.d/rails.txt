@@ -1,3 +1,5 @@
+## Rails
+
 # Rails artifacts
 *.backup
 *.bak

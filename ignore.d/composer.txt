@@ -1,2 +1,3 @@
-# Composer dependency manager for PHP
+## Composer dependency manager for PHP
+
 composer.lock

@@ -1,4 +1,4 @@
-# Archives
+## Archives
 
 # GNU zip archive
 *.gz

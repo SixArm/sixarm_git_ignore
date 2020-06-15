@@ -1,10 +1,12 @@
-# OSX Desktop Services Store
+## macOS
+
+# Desktop Services Store
 .DS_Store
 .DS_Store?
 
-# OSX Spotlight search cache
+# Spotlight search cache
 .Spotlight-v100
 
-# OSX Trash
+# Trash
 .Trashes
 ._.Trashes

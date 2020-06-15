@@ -1,3 +1,5 @@
+## Compiled files
+
 # Archive library
 *.a
 

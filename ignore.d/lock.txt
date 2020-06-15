@@ -1,4 +1,5 @@
-# Lock file naming conventions
+## Lock file naming conventions
+
 *.lock
 lock/*
 .~lock.*

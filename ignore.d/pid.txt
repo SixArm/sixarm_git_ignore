@@ -1,3 +1,4 @@
-# Process ID files
+## Process ID files
+
 *.pid
 pid/*

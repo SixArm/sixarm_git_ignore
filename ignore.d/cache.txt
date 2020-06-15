@@ -1,3 +1,4 @@
-# Cache files
+## Cache files
+
 *.cache
 cache/*

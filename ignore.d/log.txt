@@ -1,3 +1,4 @@
 # Log file naming conventions
+
 *.log
 log/*

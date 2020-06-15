@@ -1,3 +1,9 @@
-# Temporary files
+## Temporary files
+
 *.tmp
 tmp/*
+*.temp
+temp/
+*.temporary
+temporary/
+

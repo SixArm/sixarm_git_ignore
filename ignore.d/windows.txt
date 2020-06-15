@@ -1,4 +1,6 @@
-# Windows
+## Windows
+
+# Thumbs
 Thumbs.db
 ehthumbs.db
 thumbcache_*.db

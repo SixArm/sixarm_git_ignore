@@ -1,3 +1,4 @@
-# SASS CSS preprocessor
+## SASS CSS preprocessor
+
 .sass-cache
 *.sassc

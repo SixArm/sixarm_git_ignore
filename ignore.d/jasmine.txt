@@ -1,2 +1,3 @@
-# Jasmine Headless Webkit
+## Jasmine Headless Webkit
+
 .jhw-cache

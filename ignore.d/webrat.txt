@@ -1,2 +1,3 @@
-# Webrat acceptance testing temp files
+## Webrat acceptance testing temp files
+
 webrat-*.html
