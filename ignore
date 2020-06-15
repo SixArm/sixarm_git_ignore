@@ -1146,3 +1146,302 @@ project.xcworkspace
 ## YARD Ruby documentation gem
 
 .yardoc
+## Archives
+
+# GNU zip archive
+*.gz
+
+# ISO disk image
+*.iso
+
+# Tape archive 
+*.tar
+
+# Zip archive
+*.zip
+
+# 7-Zip archive
+*.7z
+
+# OSX disk image
+*.dmg
+
+# Java J2EE enterprise archive
+*.ear
+
+# Java archive
+*.jar
+
+# Java web application archive
+*.war
+
+# Roshal Archive
+*.rar
+## Backup files
+
+*.backup
+backup/*
+*.backups
+backups/*
+*.bak
+bak/*
+## Bundler Ruby gem
+
+.bundle
+## Cache files
+
+*.cache
+cache/*
+## Compiled files
+
+# Archive library
+*.a
+
+# Command file executable on DOS & Windows
+*.com
+
+# Executable file on DOS, Windows, etc.
+*.exe
+
+# Object file
+*.o
+
+# Ouput file
+*.out
+
+# Shared Object library file
+*.so
+
+# Microsoft Dynamic Link Library
+*.dll
+
+# Java
+*.class
+
+# Python
+*.pyc
+## Composer dependency manager for PHP
+
+composer.lock
+## Dot files
+
+# Ignore dot files because it's safer, then accept specific ones.
+.*
+
+# Accept Git ignore files.
+!.gitignore
+!.*[-_.]gitignore
+
+# Accept files intended for version control, such as to keep a directory.
+!.keep
+!.*[-_.]keep
+
+# Accept files intended as examples, such as with demos.
+!.*[-_.]example
+!.*[-_.]example[-_.]*
+
+# Accept files that are encrypted, such as with GPG or PGP.
+!.*[-_.]gpg
+!.*[-_.]pgp
+
+## Eclipse IDE
+
+.buildpath
+.classpath
+.project
+.settings
+## Emacs temp files
+
+*~
+*#
+.#*
+auto-save-list
+
+## Env files
+
+# Ignore env files by default, then accept specific files and patterns.
+env
+env[-_.]*
+
+# Accept example files, such as names containing the word "example".
+!env[-_.]example
+!env[-_.]example[-_.]*
+!env[-_.]*[-_.]example
+
+# Accept encrypted files, such as names ending in "gpg" or "pgp".
+!env[-_.]gpg
+!env[-_.]*[-_.]gpg
+!env[-_.]pgp
+!env[-_.]*[-_.]pgp
+## IntelliJ IDEA 
+
+.idea
+## Jasmine Headless Webkit
+
+.jhw-cache
+## Lock file naming conventions
+
+*.lock
+lock/*
+.~lock.*
+# Log file naming conventions
+
+*.log
+log/*
+## Misc
+
+.loadpath
+*.pid
+*.rbc
+*.tmproj
+**.orig
+rerun.txt
+pickle-email-*.html
+
+## Netbeans IDE
+
+nbproject/
+
+## macOS
+
+# Desktop Services Store
+.DS_Store
+.DS_Store?
+
+# Spotlight search cache
+.Spotlight-v100
+
+# Trash
+.Trashes
+._.Trashes
+## Process ID files
+
+*.pid
+pid/*
+## Postfix database
+
+*.txt.db
+## Rails
+
+# Rails artifacts
+*.backup
+*.bak
+*.cache
+*.log
+*.pid
+*.rbc
+*.sassc
+*.tmp
+*.tmproj
+
+# Rails dot files
+/.bundle
+/.config
+/.env
+/.idea
+/.jetbrains
+/.loadpath
+/.mozilla
+/.nbproject
+/.netbeans
+/.project
+/.rake
+/.rake_tasks
+/.rdoc
+/.rspec
+/.rubymine
+/.rvmrc
+/.sass
+/.sass-cache
+/.sublime
+/.sdoc
+/.yardoc
+
+# Rails directories
+/log/*
+/tmp/*
+/vendor/bundle/*
+/vendor/gems/cache/*
+
+# Rails databases
+/db/*.sqlite3
+/db/*.sqlite3-journal
+/db/cstore/**/*
+/db/sphinx/**/*
+
+# Rails config secrets
+/config/database.yml
+/config/s3_credentials.yml
+/config/initializers/site_keys.rb 
+/config/*.sphinx.conf
+
+# Rails integration testing downloads
+/capybara-*.html
+/webrat-*.html
+
+# Rails coverage reports
+/coverage/
+/spec/reports/*
+/spec/tmp/*
+/test/reports/*
+/test/tmp/*
+
+# Rails public folders for our projects
+/public/cache/*
+/public/system/*
+/public/export/*
+/public/exports/*
+/public/tmp/*
+## Rake task runner
+
+.rake_tasks
+## RSpec Ruby test gem
+
+.rspec
+## SASS CSS preprocessor
+
+.sass-cache
+*.sassc
+## SQL export files
+
+*.sql
+## SQLite database
+
+*.sqlite
+*.sqlite3
+## Temporary files
+
+*.tmp
+tmp/*
+*.temp
+temp/
+*.temporary
+temporary/
+
+## Vim
+
+# Vim swap files
+*.swp
+## Webrat acceptance testing temp files
+
+webrat-*.html
+## Windows
+
+# Thumbs
+Thumbs.db
+ehthumbs.db
+thumbcache_*.db
+## Xcode IDE
+
+build/
+*.pbxuser
+*.mode2v3
+*.mode1v3
+*.perspective
+*.perspectivev3
+*~.nib
+xcuserdata
+project.xcworkspace
+## YARD Ruby documentation gem
+
+.yardoc

@@ -5,17 +5,17 @@
 
 # Accept Git ignore files.
 !.gitignore
-!.*.gitignore
+!.*[-_.]gitignore
 
 # Accept files intended for version control, such as to keep a directory.
 !.keep
-!.*.keep
+!.*[-_.]keep
 
 # Accept files intended as examples, such as with demos.
 !.*[-_.]example
 !.*[-_.]example[-_.]*
 
 # Accept files that are encrypted, such as with GPG or PGP.
-!.*.gpg
-!.*.pgp
+!.*[-_.]gpg
+!.*[-_.]pgp
 
